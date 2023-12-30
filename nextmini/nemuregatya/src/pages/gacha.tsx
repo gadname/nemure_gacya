@@ -38,7 +38,7 @@ const Gacha = () => {
     const [displayed, setDisplayed] = useState(0); // New state for displayed images
     
     const specialImage = {
-      path: "/path/to/special/image.jpg",
+      path: "/farao.jpg",
       name: "ねむれふぁらお",
       description: "みいらです。ねむれません。"
     };
