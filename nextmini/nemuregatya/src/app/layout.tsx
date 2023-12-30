@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://next-ogp-analytics.vercel.app/'), //本番環境のアプリ名
+	metadataBase: new URL('https://nemure-gacya.vercel.app/'), //本番環境のアプリ名
 	title: 'タイトル',
 	description: '説明',
 	openGraph: {
