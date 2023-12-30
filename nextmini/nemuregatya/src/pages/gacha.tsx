@@ -114,7 +114,7 @@ const Gacha = () => {
     const shareOnTwitter = () => {
         const appUrl = "https://your-app-url.com";
         const imageName = result ? result.name : '';
-        const text = `『${imageName}』が当たったよ!!\nみんなもガチャを回そう!!\n#ねむれガチャ\n#ねむれシリーズ\n#ミニアプリウィーク\n${appUrl}`;
+        const text = `『${imageName}』が当たったよ!!\nみんなもガチャを回そう!!\n#ねむれガチャ\n#ねむれシリーズ\n#ミニアプリウィーク\n https://nemure-gacya.vercel.app/`;
         const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
         window.open(url, '_blank');
     }
