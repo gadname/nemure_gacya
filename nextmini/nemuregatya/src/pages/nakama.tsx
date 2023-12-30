@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 interface HistoryItem {
     path: string;
     name: string;
@@ -24,6 +25,7 @@ const GachaHistory = () => {
   }
 
   return (
+    
     <div>
       <h2>ガチャの履歴</h2>
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -44,6 +46,9 @@ const GachaHistory = () => {
           </div>
         </div>
       )}
+      <Link href="/">
+  <button>ホームに戻る</button>
+</Link>
     </div>
   );
 }
